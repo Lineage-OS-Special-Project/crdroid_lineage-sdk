@@ -5,15 +5,15 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageos_system_label">crDroid Sistemi</string>
+    <string name="lineageos_system_label">LOSP Sistemi</string>
     <string name="permlab_modifyProfiles">sistem profillərini dəyişdir</string>
     <string name="permdesc_modifyProfiles">Tətbiqin sistem profillərini dəyişdirməsinə icazə verir.</string>
     <string name="permlab_useHardwareFramework">donanım çərçivəsini istifadə et</string>
-    <string name="permdesc_useHardwareFramework">Tətbiqin crDroid donanım çərçivəsinə erişməsinə icazə verir.</string>
-    <string name="permlab_writeSettings">crDroid sistem ayarlarını dəyişdir</string>
-    <string name="permdesc_writeSettings">Tətbiqin crDroid sistem ayarlarını dəyişdirməsinə icazə verir.</string>
-    <string name="permlab_writeSecureSettings">crDroid güvənli sistem ayarlarını dəyişdir</string>
-    <string name="permdesc_writeSecureSettings">Tətbiqin crDroid güvənli sistem ayarlarını dəyişdirməsinə icazə verir. Normal tətbiqlər tərəfindən istifadə olunmur.</string>
+    <string name="permdesc_useHardwareFramework">Tətbiqin LOSP donanım çərçivəsinə erişməsinə icazə verir.</string>
+    <string name="permlab_writeSettings">LOSP sistem ayarlarını dəyişdir</string>
+    <string name="permdesc_writeSettings">Tətbiqin LOSP sistem ayarlarını dəyişdirməsinə icazə verir.</string>
+    <string name="permlab_writeSecureSettings">LOSP güvənli sistem ayarlarını dəyişdir</string>
+    <string name="permdesc_writeSecureSettings">Tətbiqin LOSP güvənli sistem ayarlarını dəyişdirməsinə icazə verir. Normal tətbiqlər tərəfindən istifadə olunmur.</string>
     <string name="profileNameDefault">İlkin</string>
     <string name="profileNameWork">İş</string>
     <string name="profileNameHome">Ev</string>
@@ -56,9 +56,9 @@
     <string name="permlab_manageRemotePrefs">uzaqdan bağlantı ayarlarını idarə et</string>
     <string name="permdesc_manageRemotePrefs">Tətbiqin uzaqdan bağlantı ayarlarını idarə etməsinə icazə verir</string>
     <string name="build_date">Quruluş tarixi</string>
-    <string name="lineage_api_level">crDroid API səviyyəsi</string>
-    <string name="lineage_updates">crDroid güncəlləmələri</string>
-    <string name="lineage_version">crDroid versiyası</string>
+    <string name="lineage_api_level">LOSP API səviyyəsi</string>
+    <string name="lineage_updates">LOSP güncəlləmələri</string>
+    <string name="lineage_version">LOSP versiyası</string>
     <string name="lineage_vendor_security_patch">Vendor güvənlik yamaq səviyyəsi</string>
     <string name="unknown">Bilinmir</string>
     <string name="app_killed_message">Tətbiq bağlanıldı</string>
