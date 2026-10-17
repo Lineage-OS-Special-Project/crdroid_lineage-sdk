@@ -200,10 +200,6 @@ public class TrustInterfaceService extends LineageSystemService {
             postNotificationForFeatureInternal(TrustInterface.TRUST_WARN_SELINUX);
         }
 
-        int keysStatus = getKeysStatus();
-        if (keysStatus != TrustInterface.TRUST_FEATURE_LEVEL_GOOD) {
-            postNotificationForFeatureInternal(TrustInterface.TRUST_WARN_PUBLIC_KEY);
-        }
     }
 
     /* Utils */
