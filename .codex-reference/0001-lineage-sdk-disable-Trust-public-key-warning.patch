@@ -1,0 +1,33 @@
+From a1ce00bfd0dffdeb7aa666e233abe6e3892a0f66 Mon Sep 17 00:00:00 2001
+From: yehonatan5785 <yehonatan@mail.ru>
+Date: Sat, 17 Oct 2026 21:00:20 +0100
+Subject: [PATCH] lineage-sdk: disable Trust public key warning
+
+Do not post the Trust notification for public/test signing keys.
+
+Keep the remaining Trust functionality, including SELinux status
+checks and the Trust interface itself, intact.
+
+Signed-off-by: yehonatan5785 <yehonatan@mail.ru>
+---
+ .../lineageos/platform/internal/TrustInterfaceService.java    | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/lineage/lib/main/java/org/lineageos/platform/internal/TrustInterfaceService.java b/lineage/lib/main/java/org/lineageos/platform/internal/TrustInterfaceService.java
+index c1a4a651..b9029992 100644
+--- a/lineage/lib/main/java/org/lineageos/platform/internal/TrustInterfaceService.java
++++ b/lineage/lib/main/java/org/lineageos/platform/internal/TrustInterfaceService.java
+@@ -200,10 +200,6 @@ public class TrustInterfaceService extends LineageSystemService {
+             postNotificationForFeatureInternal(TrustInterface.TRUST_WARN_SELINUX);
+         }
+ 
+-        int keysStatus = getKeysStatus();
+-        if (keysStatus != TrustInterface.TRUST_FEATURE_LEVEL_GOOD) {
+-            postNotificationForFeatureInternal(TrustInterface.TRUST_WARN_PUBLIC_KEY);
+-        }
+     }
+ 
+     /* Utils */
+-- 
+2.56.0
+
